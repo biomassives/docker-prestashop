@@ -49,8 +49,8 @@ VOLUME  ["/etc/mysql", "/var/lib/mysql"]
 VOLUME  ["/var/log/apache2", "/var/www/html"]
 
 # Default database passwords for admin and prestashop users
-ENV MYSQL_ADMIN_PASS admin
-ENV MYSQL_PRESTASHOP_PASS prestashop
+ENV MYSQL_ADMIN_PASS jkasjkhwekjhsdajk
+ENV MYSQL_PRESTASHOP_PASS kljsadjkladk89asdi2
 
 EXPOSE 80 3306
 CMD ["/run.sh"]
